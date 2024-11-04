@@ -1,4 +1,4 @@
-package com.sparta.myselectshop.service;
+package com.sparta.myselectshop.naver.service;
 
 import java.util.Optional;
 

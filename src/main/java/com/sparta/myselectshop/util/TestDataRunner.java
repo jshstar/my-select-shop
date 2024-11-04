@@ -18,7 +18,7 @@ import com.sparta.myselectshop.naver.dto.ItemDto;
 import com.sparta.myselectshop.naver.service.NaverApiService;
 import com.sparta.myselectshop.repository.ProductRepository;
 import com.sparta.myselectshop.repository.UserRepository;
-import com.sparta.myselectshop.service.UserService;
+import com.sparta.myselectshop.naver.service.UserService;
 
 @Component
 public class TestDataRunner implements ApplicationRunner {
