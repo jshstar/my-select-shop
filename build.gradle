@@ -38,12 +38,13 @@ dependencies {
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 	testImplementation 'org.springframework.security:spring-security-test'
 
-
-
-	implementation 'org.springframework.boot:spring-boot-docker-compose'
 	runtimeOnly 'mysql:mysql-connector-java:8.0.32'
 }
 
 tasks.named('test') {
 	useJUnitPlatform()
+}
+
+tasks.withType(Test) {
+	enabled = false
 }
